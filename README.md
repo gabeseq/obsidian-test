@@ -3,6 +3,6 @@
 ###### This is the homepage for controls documenation.
 <br/>
 
-* [Electrical](electrical/Index)
-* [Programming](programming/index)
+* [Electrical](./electrical/README.md)
+* [Programming](./programming/README.md)
 
