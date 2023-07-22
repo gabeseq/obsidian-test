@@ -8,19 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "77c9cd7b6deff909",
+            "id": "9cf98fe88bb9412f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "2a7a14a96aa8cbaf",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Untitled/Electrical.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -29,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Untitled/Code.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,6 +76,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "50711d7d04752d79",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -102,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Untitled/Electrical.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Untitled/Electrical.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Untitled/Electrical.md"
               }
             }
           }
@@ -163,8 +166,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ae0ebb3165abe536",
+  "active": "9cf98fe88bb9412f",
   "lastOpenFiles": [
+    "Untitled/Intro Project.canvas",
+    "Untitled/Electrical.md",
+    "Untitled 1",
+    "Untitled/Code.md",
+    "Untitled/intro project thing.md",
+    "README.md",
+    "Untitled",
     "programming/README.md",
     "programming/javaBasics.md",
     "programming/Index.md",

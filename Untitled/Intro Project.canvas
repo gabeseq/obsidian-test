@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"41c3a0e191e5ffeb","x":-420,"y":-460,"width":290,"height":260,"color":"1","type":"group","label":"TAKE HOME VERSION"},
+		{"type":"text","text":"SPARK MAX","id":"5ddb7f22bd669541","x":-780,"y":-220,"width":250,"height":60,"color":"1"},
+		{"type":"text","text":"ENCODER WIRE","id":"2cc0bcb0f2acbb09","x":-780,"y":-80,"width":250,"height":62,"color":"1"},
+		{"type":"text","text":"THRU BORE ENCODER","id":"e362e8e79c5b802c","x":-780,"y":40,"width":250,"height":60,"color":"1"},
+		{"type":"text","text":"THROTTLE MOTOR","id":"a420fb6d03cf4fee","x":-780,"y":-480,"width":250,"height":60,"color":"6"},
+		{"type":"text","text":"SPADE CONNECTORS","id":"384d3ef868aaf63a","x":-780,"y":-340,"width":250,"height":60,"color":"6"},
+		{"type":"text","text":"Solder splice (lineman's splice) to the wires from the throttle motor","id":"2197267d71847c35","x":-400,"y":-420,"width":250,"height":104,"color":"1"},
+		{"type":"text","text":"9V Battery Holder w/ Power Switch","id":"ec26a310fc036ed1","x":-400,"y":-280,"width":250,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"7ee1487a527cd9f7","fromNode":"e362e8e79c5b802c","fromSide":"top","toNode":"2cc0bcb0f2acbb09","toSide":"bottom"},
+		{"id":"7c0c9dea1dc16941","fromNode":"2cc0bcb0f2acbb09","fromSide":"top","toNode":"5ddb7f22bd669541","toSide":"bottom"},
+		{"id":"5a7b0c0cd0de1030","fromNode":"ec26a310fc036ed1","fromSide":"top","toNode":"2197267d71847c35","toSide":"bottom"},
+		{"id":"47229df29d117c15","fromNode":"384d3ef868aaf63a","fromSide":"bottom","toNode":"5ddb7f22bd669541","toSide":"top"},
+		{"id":"688742e58c06da1f","fromNode":"a420fb6d03cf4fee","fromSide":"bottom","toNode":"384d3ef868aaf63a","toSide":"top"},
+		{"id":"7d651b3827dee2ce","fromNode":"2197267d71847c35","fromSide":"left","toNode":"a420fb6d03cf4fee","toSide":"right"}
+	]
+}
