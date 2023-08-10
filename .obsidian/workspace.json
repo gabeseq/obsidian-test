@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled/Code.md",
+                "file": "Training/Intro to FRC Programming Lesson.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro to FRC Programming Lesson.md",
+                "file": "Training/Code.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "6ff1bb30bbf24948",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10033c4b6636bbb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Training/Code.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d482f169e8fc5983",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Training/Step by Step Instructions.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9d27cafd4801d5b7",
@@ -107,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intro to FRC Programming Lesson.md",
+                "file": "Training/Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intro to FRC Programming Lesson.md",
+                "file": "Training/Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intro to FRC Programming Lesson.md"
+                "file": "Training/Code.md"
               }
             }
           }
@@ -170,16 +200,17 @@
   },
   "active": "4dfcd4715fbe75cb",
   "lastOpenFiles": [
+    "Training/Intro to FRC Programming Lesson.md",
+    "Training/Step by Step Instructions.md",
+    "Training/Code.md",
+    "_res/Controls Lesson Plan Summer-Fall 2023.pdf",
     "s-l1200.webp",
-    "Intro to FRC Programming Lesson.md",
-    "Untitled/Code.md",
-    "Untitled/Electrical.md",
-    "Untitled/Intro Project.canvas",
-    "Controls Lesson Plan Summer-Fall 2023.pdf",
-    "Untitled 1",
+    "_res",
+    "Training/Electrical.md",
+    "Training/Intro Project.canvas",
     "Untitled/intro project thing.md",
     "README.md",
-    "Untitled",
+    "Training",
     "programming/README.md",
     "programming/javaBasics.md",
     "programming/Index.md",

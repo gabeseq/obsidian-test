@@ -15,6 +15,7 @@ In the below snippet, `x` is a variable of type `int` which we are assigning a v
 ```java
 int x = 5;
 ```
+You will notice that this line ends with a semicolon. In Java, all statements must end with a semicolon, and most single lines of Java you write will be statements.
 ### Functions
 A function is a block of code which executes a given set of steps. This is useful when you have common operations that you might want to do on a regular basis.
 
@@ -40,11 +41,11 @@ Classes can have *member variables*, which are variables that belong to that cla
 
 Classes also have *methods*, which are functions specific to that class. They typically operate on data stored in objects and variables which belong to that Class.
 ### Objects
-Classes are just templates, though. To use the Class, we need to create an *instance* of it. For Objects this is done with the keyword `new`. For example,
+Classes are just templates, though. To use the Class, we need to create an *instance* of it. For Objects this is done with the keyword `new`. This invokes that Class's **Constructor**, which looks sort of like a method but is the name of the object. Many constructors have required parameters in order to create a new instance of that object. For example,
 ```java
-private CANSparkMax my_motor = new CANSparkMax();
+private CANSparkMax my_motor = new CANSparkMax(port, type);
 ```
-In this example, we're storing an instance of the CAN Spark Max inside a variable name called `my_motor`. This variable represents an Object which is an instance of the Class called `CANSparkMax` and gives us access to its methods.
+In this example, we're calling the constructor of the class CANSparkMax, which requires a port, or CAN ID, and a type, either brushed or brushless. Then we're storing an instance of the CAN Spark Max inside a variable name called `my_motor`. This variable represents an Object which is an instance of the Class called `CANSparkMax` and gives us access to its methods.
 
 ### Logic 
 Sometimes you want your program to execute different steps based on the state of some value or function. The most basic way to do this is with an `if` statement. The general syntax is 
