@@ -7,32 +7,27 @@ We program in **JAVA**
 ### Variables
 The most basic element of programming is a *variable*, which is something that lets us store information.
 Variables come in a few basic types:
-- Integer, e.g. **==5==** - `int`
-- Decimal Number, e.g. **==0.25==** - `double`
+- Integer - `int`
+- Decimal Number - `double`
 - True/False value, or "Boolean" value - `boolean`
 
-In the below snippet, `x` is a variable of type `int` which we are assigning a value of `5`:
+In the below snippet, `x` is a variable of type `int` which we are assigning a value of 5:
 ```java
 int x = 5;
 ```
-You will notice that this line ends with a semicolon. In Java, all statements must end with a semicolon, and most single lines of Java you write will be statements.
 ### Functions
 A function is a block of code which executes a given set of steps. This is useful when you have common operations that you might want to do on a regular basis.
 
 ```java
-private void sayHello()
-{
-System.out.println("Hello!");
+private void sayHello() {
+	System.out.println("Hello!");
 }
 ```
 This function prints out "Hello!" to the console whenever it is invoked. You would do so by writing the line `sayHello();`
 ```java
-private int add(int a, int b)
-{
+private int add(int a, int b) {
 	return (a + b);
 }
-
-int sum = add(5, 1);
 ```
 In this code snippet, we've declared a function called `add` which takes two *arguments*, `a` and `b`. An argument lets you pass data into a function for it to use in its operation. In this case, the function adds together the two integers we supply as arguments and returns another integer that is the sum of those arguments. The value in the `return` statement must be of the same type as the function declaration, which we declared to be `int`.
 
@@ -43,30 +38,27 @@ Classes can have *member variables*, which are variables that belong to that cla
 
 Classes also have *methods*, which are functions specific to that class. They typically operate on data stored in objects and variables which belong to that Class.
 ### Objects
-Classes are just templates, though. To use the Class, we need to create an *instance* of it. For Objects this is done with the keyword `new`. This invokes that Class's **Constructor**, which looks sort of like a method but is the name of the object. Many constructors have required parameters in order to create a new instance of that object. For example,
+Classes are just templates, though. To use the Class, we need to create an *instance* of it. For Objects this is done with the keyword `new`. For example,
 ```java
-private CANSparkMax my_motor = new CANSparkMax(port, type);
+private CANSparkMax my_motor = new CANSparkMax(0);
 ```
-In this example, we're calling the constructor of the class CANSparkMax, which requires a port, or CAN ID, and a type, either brushed or brushless. Then we're storing an instance of the CAN Spark Max inside a variable name called `my_motor`. This variable represents an Object which is an instance of the Class called `CANSparkMax` and gives us access to its methods.
+In this example, we're storing an instance of the CAN Spark Max inside a variable name called `my_motor`. This variable represents an Object which is an instance of the Class called `CANSparkMax` and gives us access to its methods.
 
 ### Logic 
 Sometimes you want your program to execute different steps based on the state of some value or function. The most basic way to do this is with an `if` statement. The general syntax is 
 ```
-if (condition)
-{
+if (condition) {
 	do some stuff;
 }
 ```
-where your condition is any expression which can  be evaluated to a Boolean value of either `true` or `false`.
+where your condition is any expression which can be evaluated to a Boolean value of either `true` or `false`.
 ```java
-//NOTE: the == sign evaluates whether the items on either side are equal
+//NOTE: the .equals() method evaluates whether the items on either side are equal (just like the '==' operator!)
 
-if (name == "Gary")
-{
-System.out.println("Hi Gary!");
-} else
-{
-System.out.println("WHO ARE YOU?");
+if (name.equals("Gary")) {
+	System.out.println("Hi Gary!");
+} else {
+	System.out.println("WHO ARE YOU?");
 }
 ```
 
@@ -82,17 +74,16 @@ Think of Commands as special methods which can be passed to a higher-level sched
 Creating commands looks like this
 ```java
 // Spin the motor at the set speed
-private void spinMotor()
-{
+public void spinMotor() {
 	my_motor.set(my_speed);
 }
 
 // Command to spin the motor
-public Command spinMotorCommand()
-{
+public Command spinMotorCommand() {
 	return run(() -> spinMotor());
 }
 ```
+
 This method would live inside of a Subsystem class and would return a Command which executes the `spinMotor()` function, which itself calls the set method from the motor object, which is used to set the speed.
 
 ### Xbox Controller
@@ -107,5 +98,9 @@ where the `port` is whichever USB port is detected by the FRC Driver Station sof
 
 Then you use the controller to invoke your subsystem commands, like this:
 ```java
-driverController.a().onTrue(mySubsystem.spinMotorCommand());
+driverController.a().whileTrue(mySubsystem.spinMotorCommand());
 ```
+
+
+# Resources
+- REVLib URL: https://software-metadata.revrobotics.com/REVLib-2023.json
