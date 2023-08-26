@@ -74,7 +74,7 @@ Think of Commands as special methods which can be passed to a higher-level sched
 Creating commands looks like this
 ```java
 // Spin the motor at the set speed
-public void spinMotor() {
+private void spinMotor() {
 	my_motor.set(my_speed);
 }
 
@@ -98,7 +98,7 @@ where the `port` is whichever USB port is detected by the FRC Driver Station sof
 
 Then you use the controller to invoke your subsystem commands, like this:
 ```java
-driverController.a().whileTrue(mySubsystem.spinMotorCommand());
+driverController.a().onTrue(mySubsystem.spinMotorCommand());
 ```
 
 

@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"type":"group","id":"4eb64c9a933daacc","x":180,"y":-680,"width":850,"height":720,"color":"6","label":"TASKS"},
+		{"type":"text","text":" Sharkbait Subsystem Control\n- Sam\n- Mika","id":"940934c64823d5fc","x":200,"y":-644,"width":250,"height":200,"color":"6"},
+		{"type":"text","text":"Scouting App / DataViz\n- Make Our Own?\n- Contribute/Customize Existing (ScoutingPASS)?\n- Carson The magic code monkey","id":"bcb3deafcc1a5c44","x":760,"y":-200,"width":250,"height":204,"color":"6"},
+		{"type":"text","text":"Simulation & Logging with AdvantageKit\n- Carson","id":"2e9dc4970c472ff2","x":480,"y":-200,"width":250,"height":204,"color":"6"},
+		{"type":"text","text":"## TEAM ROSTER\n- Carson\n- GStuk\n- Nick\n- Sam\n- Mika\n- Zeke\n- Surya\n- AG3\n- Kaveri\n- Chi-chi\n- Levi?\n","id":"feeb1cc0bfbc963e","x":-160,"y":-680,"width":290,"height":720,"color":"2"},
+		{"type":"text","text":"# NOTES\n\nGitHub Training\n\tCan happen while everyone downloads and installs their software\n\n#### ROBOTS\n- [x] OMAR Vision Only\n- [ ] Mk2 chassis\n- [x] Sharkbait\n- [x] Eclipse\n- [x] Octavian\n- [x] Charlotte\n- [x] Leeroy\n","id":"6c611cd939f93559","x":-540,"y":-680,"width":320,"height":720},
+		{"type":"text","text":"Zero to Swerve YAGSL + Vision Feedback (2D Tags \"tags as vision tape\", game piece detection & tracking, aka \"The Magic Auton\")\n- GStuk","id":"886cedb5c9c0f873","x":760,"y":-648,"width":250,"height":204,"color":"6"},
+		{"type":"text","text":"Zero to Swerve YAGSL + Autons w/ PathPlanner on Charlotte\n- Nick\n- Zeke\n- GStuk","id":"205f82312ef42858","x":480,"y":-648,"width":250,"height":204,"color":"6"},
+		{"type":"text","text":"Zebra Switch 2.0 MFG\n(SIDE PROJECT/TASK)\n- Kaveri\n- Mika\n- Sam","id":"be86af3bd76e3cb7","x":200,"y":-200,"width":250,"height":204,"color":"6"},
+		{"type":"text","text":"Leeroy Recontrol, Tank Drive\n- Kaveri\n- Chi-chi\n- Levi\n- Eclipse when done w/ Leeroy","id":"64a420765aa1cb37","x":200,"y":-422,"width":250,"height":204,"color":"6"},
+		{"type":"text","text":"AprilTags\n- Carson","id":"a0c96e8e0c895779","x":760,"y":-422,"width":250,"height":204,"color":"6"},
+		{"type":"text","text":"Octavian\n- Surya\n- AG3\n- GStuk help w/ driving as needed","id":"223948f0b77be23b","x":480,"y":-422,"width":250,"height":204,"color":"6"}
+	],
+	"edges":[]
+}
