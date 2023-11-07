@@ -7,12 +7,11 @@
 		{"type":"text","text":"## TEAM ROSTER\n- Carson\n- GStuk\n- Nick\n- Sam\n- Mika\n- Zeke\n- Surya\n- AG3\n- Kaveri\n- Chi-chi\n- Levi\n- Leilani\n- Eric\n","id":"feeb1cc0bfbc963e","x":-140,"y":-680,"width":300,"height":420,"color":"2"},
 		{"type":"text","text":"# NOTES\n\nGitHub Training\n\tCan happen while everyone downloads and installs their software\n\n#### ROBOTS\n- [x] OMAR Vision Only\n- [ ] Mk2 chassis\n- [x] Sharkbait\n- [x] Eclipse\n- [x] Octavian\n- [x] Charlotte\n- [x] Leeroy\n","id":"6c611cd939f93559","x":-140,"y":-246,"width":300,"height":486},
 		{"type":"text","text":"Scouting App / DataViz\n- Make Our Own?\n- Contribute/Customize Existing (ScoutingPASS)?\n- Carson The magic code monkey","id":"bcb3deafcc1a5c44","x":760,"y":-53,"width":250,"height":267,"color":"6"},
-		{"type":"text","text":"Simulation & Logging with AdvantageKit\n- Carson","id":"2e9dc4970c472ff2","x":480,"y":-53,"width":250,"height":267,"color":"6"},
-		{"id":"9df8e482966243ff","x":200,"y":-342,"width":250,"height":267,"type":"text","text":"Eclipse Re-Control\n- Zeke\n- Eric"},
-		{"type":"text","text":"Leeroy Rebuild, if they are interested\n- Kaveri\n- Chi-chi\n- Levi\nWhen built, then write controls for it\n","id":"64a420765aa1cb37","x":1060,"y":-342,"width":250,"height":267,"color":"6"},
-		{"type":"text","text":"AprilTags\n- Carson","id":"a0c96e8e0c895779","x":1060,"y":-638,"width":250,"height":267,"color":"6"},
+		{"type":"text","text":"Carson:\n- Simulation & Logging with AdvantageKit\n- AprilTags","id":"2e9dc4970c472ff2","x":480,"y":-53,"width":250,"height":267,"color":"6"},
+		{"id":"9df8e482966243ff","type":"text","text":"Eclipse Re-Control\n- Zeke\n- Eric","x":200,"y":-342,"width":250,"height":267},
 		{"type":"text","text":" Sharkbait Subsystem Control\n- Sam\n- Mika\n- Leilani","id":"940934c64823d5fc","x":760,"y":-342,"width":250,"height":262,"color":"6"},
-		{"type":"text","text":"Zero to Swerve YAGSL + Autons w/ PathPlanner on Charlotte\n- Nick\n- GStuk","id":"205f82312ef42858","x":1340,"y":-344,"width":250,"height":267,"color":"6"}
+		{"type":"text","text":"Zero to Swerve YAGSL + Autons w/ PathPlanner on Charlotte\n- Nick\n- GStuk","id":"205f82312ef42858","x":200,"y":-638,"width":250,"height":267,"color":"6"},
+		{"type":"text","text":"Leeroy Rebuild, if they are interested\n- Kaveri\n- Chi-chi\n- Levi\nWhen built, then write controls for it\n","id":"64a420765aa1cb37","x":480,"y":-638,"width":250,"height":267,"color":"6"}
 	],
 	"edges":[]
 }
